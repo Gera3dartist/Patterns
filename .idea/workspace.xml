@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c59a0a8e-abc3-4322-9f6f-74184ffd06b4" name="Default" comment="" />
+    <list default="true" id="c59a0a8e-abc3-4322-9f6f-74184ffd06b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Singleton/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory/abstract_factory.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Singleton/borg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Singleton/classic_singleton.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory/factory_method.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory/simple_factory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/envss/pip-selfcheck.json" afterPath="$PROJECT_DIR$/envss/pip-selfcheck.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,7 +24,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Patterns$factory_method.coverage" NAME="factory_method Coverage Results" MODIFIED="1465675087842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Factory" />
+    <SUITE FILE_PATH="coverage/Patterns$factory_method.coverage" NAME="factory_method Coverage Results" MODIFIED="1465708729828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Factory" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -25,16 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simple_factory.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Factory/simple_factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="last_short.p" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/last_short.p">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,13 +95,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abstract_factory.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="abstract_factory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Factory/abstract_factory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2795031">
-              <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
+            <state vertical-scroll-proportion="-6.5263157">
+              <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#271#297#0" expanded="false" />
+                <element signature="e#362#366#0" expanded="false" />
+                <element signature="e#427#431#0" expanded="false" />
+                <element signature="e#494#498#0" expanded="false" />
+                <element signature="e#730#749#0" expanded="false" />
+                <element signature="e#786#866#0" expanded="false" />
+                <element signature="e#907#974#0" expanded="false" />
+                <element signature="e#1047#1063#0" expanded="false" />
+                <element signature="e#1104#1116#0" expanded="false" />
+                <element signature="e#1155#1173#0" expanded="false" />
+                <element signature="e#1233#1288#0" expanded="false" />
+                <element signature="e#1284#1288#0" expanded="false" />
+                <element signature="e#1317#1355#0" expanded="false" />
+                <element signature="e#1344#1355#0" expanded="false" />
+                <element signature="e#1390#1429#0" expanded="false" />
+                <element signature="e#1417#1429#0" expanded="false" />
+                <element signature="e#1457#1497#0" expanded="false" />
+                <element signature="e#1484#1495#0" expanded="false" />
+                <element signature="e#1556#1621#0" expanded="false" />
+                <element signature="e#1617#1621#0" expanded="false" />
+                <element signature="e#1654#1886#0" expanded="false" />
+                <element signature="e#1691#1886#0" expanded="false" />
+                <element signature="e#1918#2216#0" expanded="false" />
+                <element signature="e#1955#2213#0" expanded="false" />
+                <element signature="e#2450#2578#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -132,6 +156,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.494465">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -168,6 +202,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -184,6 +222,7 @@
         <option value="$PROJECT_DIR$/Factory/simple_factory.py" />
         <option value="$PROJECT_DIR$/Factory/factory_method.py" />
         <option value="$PROJECT_DIR$/Factory/abstract_factory.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -200,7 +239,7 @@
     <option name="width" value="1922" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -515,6 +554,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c59a0a8e-abc3-4322-9f6f-74184ffd06b4" name="Default" comment="" />
@@ -524,30 +566,47 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23322684" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39468086" sideWeight="0.6352503" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39490446" sideWeight="0.36458334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38629285" sideWeight="0.6354167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657082" sideWeight="0.50615114" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287234" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.4978701" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26571113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39808917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657082" sideWeight="0.49384886" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.49574015" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -698,14 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -910,11 +961,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Factory/abstract_factory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2795031">
-          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
+        <state vertical-scroll-proportion="-6.5263157">
+          <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#271#297#0" expanded="false" />
+            <element signature="e#362#366#0" expanded="false" />
+            <element signature="e#427#431#0" expanded="false" />
+            <element signature="e#494#498#0" expanded="false" />
+            <element signature="e#730#749#0" expanded="false" />
+            <element signature="e#786#866#0" expanded="false" />
+            <element signature="e#907#974#0" expanded="false" />
+            <element signature="e#1047#1063#0" expanded="false" />
+            <element signature="e#1104#1116#0" expanded="false" />
+            <element signature="e#1155#1173#0" expanded="false" />
+            <element signature="e#1233#1288#0" expanded="false" />
+            <element signature="e#1284#1288#0" expanded="false" />
+            <element signature="e#1317#1355#0" expanded="false" />
+            <element signature="e#1344#1355#0" expanded="false" />
+            <element signature="e#1390#1429#0" expanded="false" />
+            <element signature="e#1417#1429#0" expanded="false" />
+            <element signature="e#1457#1497#0" expanded="false" />
+            <element signature="e#1484#1495#0" expanded="false" />
+            <element signature="e#1556#1621#0" expanded="false" />
+            <element signature="e#1617#1621#0" expanded="false" />
+            <element signature="e#1654#1886#0" expanded="false" />
+            <element signature="e#1691#1886#0" expanded="false" />
+            <element signature="e#1918#2216#0" expanded="false" />
+            <element signature="e#1955#2213#0" expanded="false" />
+            <element signature="e#2450#2578#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.494465">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
